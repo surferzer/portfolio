@@ -6,6 +6,8 @@ class App extends Component {
 constructor(props) {
 super(props)
 
+this.state = { item: [] }
+
 }
 
 
@@ -16,8 +18,15 @@ render(){
 <logo.svg />
 </div>
 
+<div className="nombre">
+  FERNANDA ZERMEÑO
+  </div>
 
-    </div>
-  )}}
+</div>
+     
+
+
+    
+  )}}  
 
 export default App;
