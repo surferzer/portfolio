@@ -1,11 +1,81 @@
-.App {
-  text-align: center;
+
+.body{
+  background: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  background-image: "https://velvetpets.it/wp-content/uploads/2017/08/Betta-splendens.jpg";
+.App{
+background-image: white;
+width: 40%;
+max-width: 1000px;
+height: 600px;
+text-align: left;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
 }
+
+.imagen{
+  width: 500px;
+  margin: 80px 0;
+}
+
+h1{
+  text-align: center;
+  line-height: 10px;
+  font-family: 'Caveat', cursive;
+  font-display: center;
+  color: black;
+  font-size:300%;
+  line-height: 10px;
+}
+
+h2{
+  text-align: center;
+  line-height: 10px;
+}
+
+
+.titulos{
+  background: white;
+position: relative;
+left: 500px;
+top: -600px;
+}
+
+.proyectos{
+  position: absolute;
+  left:800px;
+  top:500px;
+}
+
+
+
+/*.App {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+  float: left;
+  width: 800px;
+
+  background-color: 00FFF2;
+  text-align: left;
+  margin:3px 10px 3px 3px
+  
+}*/
+
+.nombre{
+  font-family: 'Caveat', cursive;
+  font-display: center;
+  color: black;
+  font-size:200%;
+  line-height: 600px;
+}
+
 
 .App-header {
   background-color: #282c34;
