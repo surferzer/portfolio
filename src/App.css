@@ -1,93 +1,57 @@
 
-.body{
-  background: white;
+
+@import url('https://fonts.googleapis.com/css?family=Codystar|Dawning+of+a+New+Day|Montez|Raleway+Dots|Sacramento|Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #111;
 }
 
-.App{
-background-image: white;
-width: 40%;
-max-width: 1000px;
-height: 600px;
-text-align: left;
-
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
 }
 
-.imagen{
-  width: 500px;
-  margin: 80px 0;
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
 }
 
-h1{
-  text-align: center;
-  line-height: 10px;
-  font-family: 'Caveat', cursive;
-  font-display: center;
-  color: black;
-  font-size:300%;
-  line-height: 10px;
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
 }
 
 h2{
-  text-align: center;
-  line-height: 10px;
-}
-
-
-.titulos{
-  background: white;
-position: relative;
-left: 500px;
-top: -600px;
-}
-
-.proyectos{
-  position: absolute;
-  left:800px;
-  top:500px;
-}
-
-
-
-/*.App {
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: left;
-  float: left;
-  width: 800px;
-
-  background-color: 00FFF2;
-  text-align: left;
-  margin:3px 10px 3px 3px
-  
-}*/
-
-.nombre{
-  font-family: 'Caveat', cursive;
-  font-display: center;
-  color: black;
-  font-size:200%;
-  line-height: 600px;
-}
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  color:wheat;
+  font-family: 'Montez', cursive;
+  font-size: 250%;
 }

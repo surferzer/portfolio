@@ -15,26 +15,28 @@ this.state = { item: [] }
 
 render(){
   return (
-   // <div className="contededor">
-    <div className="App">
-     / <img src="https://i.pinimg.com/originals/c8/96/97/c896970cd258023e93135f91c14524c3.jpg" className="imagen" alt="imagen de fondo"/>
-     
-<div className="titulos">
-<h1>Fernanda Zermeño</h1>
-<h2>Front-end Developer</h2>
 
+    <div>
+
+<div className="title">
+ <h1>Fernanda<br/>Zermeño</h1>
+ <h2>Front-end Developer</h2>
+
+ <a target="_blank" href="http://codepen.io/Moslim/" class="white-mode">OTHER PENS</a>
 </div>
-
+<div>
+  
+</div>
 <div className="proyectos">
   <Proyectos />
 
   </div>
 
-</div>
+
      
 
 
-//</div>
+</div>
   )}}  
 
 export default App;
