@@ -2,7 +2,7 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import Proyectos from './Proyectos.js'
-
+import ButtonBases from './barra.js'
 
 class App extends React.Component {
 constructor(props) {
@@ -31,7 +31,9 @@ render(){
   <Proyectos />
 
   </div>
-
+<div>
+  <ButtonBases/>
+</div>
 
      
 
