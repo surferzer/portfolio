@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 
+let open= (event) => {
+        alert('Para más información, acuda a recepción.');
+      };
 
 
 
@@ -99,15 +102,15 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function ButtonBases() {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root}> 
       {images.map(image => (
         <ButtonBase
           focusRipple
           key={image.title}
-          className={classes.image}
+          className={classes.image} onClick={open}
           focusVisibleClassName={classes.focusVisible}
           style={{
             width: image.width,
