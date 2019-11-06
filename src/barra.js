@@ -3,9 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 
-let open= (event) => {
-        alert('Para más información, acuda a recepción.');
-      };
+
 
 
 
@@ -19,14 +17,26 @@ let open= (event) => {
   {
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM4K95d7ctXGuOlsUfriJLQoX86zCiVLv8uLOQXeAG4eg7Rc-rZg&s',
     title: 'Proyects',
-    width: '33.3%',
+    width: '33.3%'
   },
   {
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrhzKdAILkqLoIJkvmUiqiqRoS8_kq4WT4yQTW9maatCE9ZWMrEQ&s',
-    title: 'Contact',
+    title:'Contact',
     width: '33.3%',
   },
 ];
+
+
+let open= (event) => {
+    //console.log(images.includes("Contact"))
+    console.dir(event.target)
+   if(event.target.textContent === "Contact"){
+
+             alert('Para más información, acuda a recepción.')
+}else{
+    console.log(images[2].title);
+    
+}};
 
 const useStyles = makeStyles(theme => ({
   root: {
