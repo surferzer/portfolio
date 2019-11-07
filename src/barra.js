@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 
+import {Redirect} from "react-router-dom";
+
+
 
 
 
@@ -31,8 +34,8 @@ let open= (event) => {
     //console.log(images.includes("Contact"))
     console.dir(event.target)
    if(event.target.textContent === "Contact"){
-
-             alert('Para más información, acuda a recepción.')
+    return <Redirect to='/contact' />
+            // alert('Para más información, acuda a recepción.')
 }else{
     console.log(images[2].title);
     

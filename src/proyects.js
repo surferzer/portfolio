@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Proyectos extends React.Component {
+class Proyects extends React.Component {
     render(){
         return(
         <div className='vista'>
@@ -37,4 +37,4 @@ class Proyectos extends React.Component {
        );
    }
 };
-export default Proyectos;
+export default Proyects;
