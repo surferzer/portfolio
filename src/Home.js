@@ -33,10 +33,7 @@ render(){
 <div>
   
 </div>
-<div className="proyects">
-  <Proyects />
 
-  </div>
 <div>
   <ButtonBases/>
 </div>

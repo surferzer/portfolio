@@ -4,6 +4,8 @@ import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
 
 import {Redirect} from "react-router-dom";
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -14,32 +16,44 @@ import {Redirect} from "react-router-dom";
     const images = [
   {
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz4HpphD_HRR5X4o2UlHFLSH1h_4je-JW4RF4wd4CxckuLakTH&s',
-    title: 'About me',
+    title:<Link to="/proyects" class="MuiTypography-subtitle1 MuiTypography-colorInherit">About me</Link>,
     width: '33.3%',
   },
   {
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM4K95d7ctXGuOlsUfriJLQoX86zCiVLv8uLOQXeAG4eg7Rc-rZg&s',
-    title: 'Proyects',
+    title: <Link to="/proyects" class="MuiTypography-subtitle1 MuiTypography-colorInherit">Proyects</Link>,
     width: '33.3%'
   },
   {
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrhzKdAILkqLoIJkvmUiqiqRoS8_kq4WT4yQTW9maatCE9ZWMrEQ&s',
-    title:'Contact',
+    title:<Link to="/contact" class="MuiTypography-subtitle1 MuiTypography-colorInherit">Contact</Link>,
     width: '33.3%',
   },
 ];
 
 
+
 let open= (event) => {
-    //console.log(images.includes("Contact"))
+ 
     console.dir(event.target)
    if(event.target.textContent === "Contact"){
-    return <Redirect to='/contact' />
-            // alert('Para más información, acuda a recepción.')
-}else{
-    console.log(images[2].title);
+    return  <Redirect to ='/contact' />
+    // this.props.history.push('/contact');
+  //  return  this.history.push
+  
+   // return <Link to="/contact"></Link>
+             //alert('Para más información, acuda a recepción.')
+}else if
+  (event.target.textContent === "Proyects"){
+    return <Redirect to='/proyects' />
+  }else if
+  (event.target.textContent === "AboutMe"){
+    return <Redirect to='/aboutMe' />
+  }else{
     
-}};
+  }
+      
+};
 
 const useStyles = makeStyles(theme => ({
   root: {
