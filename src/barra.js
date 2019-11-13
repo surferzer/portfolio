@@ -16,7 +16,7 @@ import {Link} from 'react-router-dom';
     const images = [
   {
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz4HpphD_HRR5X4o2UlHFLSH1h_4je-JW4RF4wd4CxckuLakTH&s',
-    title:<Link to="/proyects" class="MuiTypography-subtitle1 MuiTypography-colorInherit">About me</Link>,
+    title:<Link to="/aboutMe" class="MuiTypography-subtitle1 MuiTypography-colorInherit">About me</Link>,
     width: '33.3%',
   },
   {
@@ -126,6 +126,7 @@ const useStyles = makeStyles(theme => ({
     left: 'calc(50% - 9px)',
     transition: theme.transitions.create('opacity'),
   },
+  
 }));
 
 export default function ButtonBases() {

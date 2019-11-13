@@ -1,0 +1,17 @@
+.cypher{
+   
+    font-size: 300%;
+    color:wheat;
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+  
+    background-image: url("https://ibb.co/DtRj7Zt");
+    background: cover;
+
+}
+
+.img src{
+    width: 100%;
+    size: 200%;
+}

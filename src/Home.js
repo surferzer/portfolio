@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Proyects from './proyects.js'
 import ButtonBases from './barra.js'
+import './home.css';
 
 import './App.css';
 
@@ -28,11 +29,11 @@ render(){
  <h1>Fernanda<br/>Zermeño</h1>
  <h2>Front-end Developer</h2>
 
+
  <a target="_blank" href="http://codepen.io/Moslim/" class="white-mode">OTHER PENS</a>
 </div>
-<div>
-  
-</div>
+
+
 
 <div>
   <ButtonBases/>
