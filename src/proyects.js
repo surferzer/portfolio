@@ -35,13 +35,6 @@ class Proyects extends React.Component {
                <img src="https://i.ibb.co/0XThBbb/competition-Sistem-2.png" width="50%" alt="competitionSystem"/> </a>
            </div>
            
-
-
-
-
-
-
-           
        </div>
        );
    }

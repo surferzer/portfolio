@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar|Dawning+of+a+New+Day|Montez|Raleway+Dots|Sacramento|Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.parraf{
+    
+    color: wheat;
+ 
+    font-family: fantasy;
+    font-size: 300%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+float: right;
+font-family: 'Montez', cursive;
+}
+
+.myPic{
+    border-radius: 700%;
+}
