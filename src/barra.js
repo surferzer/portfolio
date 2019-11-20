@@ -2,7 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
-
+import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
+import Icon from '@material-ui/core/Icon';
+import IconButton from '@material-ui/core/IconButton';
+import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
 import {Redirect} from "react-router-dom";
 import {Link} from 'react-router-dom';
 
@@ -15,19 +18,23 @@ import {Link} from 'react-router-dom';
     
     const images = [
   {
-    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz4HpphD_HRR5X4o2UlHFLSH1h_4je-JW4RF4wd4CxckuLakTH&s',
+    
     title:<Link to="/aboutMe" class="MuiTypography-subtitle1 MuiTypography-colorInherit">About me</Link>,
-    width: '33.3%',
+    width: '35%', 
+  
+   
   },
   {
-    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM4K95d7ctXGuOlsUfriJLQoX86zCiVLv8uLOQXeAG4eg7Rc-rZg&s',
+    
     title: <Link to="/proyects" class="MuiTypography-subtitle1 MuiTypography-colorInherit">Proyects</Link>,
-    width: '33.3%'
+    width: '35%',
+   
   },
   {
-    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrhzKdAILkqLoIJkvmUiqiqRoS8_kq4WT4yQTW9maatCE9ZWMrEQ&s',
+   
     title:<Link to="/contact" class="MuiTypography-subtitle1 MuiTypography-colorInherit">Contact</Link>,
-    width: '33.3%',
+    width: '25%',
+   
   },
 ];
 
@@ -68,6 +75,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down('xs')]: {
       width: '100% !important', // Overrides inline-style
       height: 100,
+      
     },
     '&:hover, &$focusVisible': {
       zIndex: 1,
@@ -93,6 +101,7 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     color: theme.palette.common.white,
+    
   },
   imageSrc: {
     position: 'absolute',
@@ -102,17 +111,9 @@ const useStyles = makeStyles(theme => ({
     bottom: 0,
     backgroundSize: 'cover',
     backgroundPosition: 'center 40%',
+    
   },
-  imageBackdrop: {
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    top: 0,
-    bottom: 0,
-    backgroundColor: theme.palette.common.black,
-    opacity: 0.4,
-    transition: theme.transitions.create('opacity'),
-  },
+ 
   imageTitle: {
     position: 'relative',
     padding: `${theme.spacing(2)}px ${theme.spacing(4)}px ${theme.spacing(1) + 6}px`,

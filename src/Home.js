@@ -29,8 +29,11 @@ render(){
  <h1>Fernanda<br/>Zermeño</h1>
  <h2>Front-end Developer</h2>
 
+
+
+
  <ButtonBases/>
- <a target="_blank" href="http://codepen.io/Moslim/" class="white-mode">About me</a> 
+ 
  
 
 </div>
@@ -38,7 +41,7 @@ render(){
 
 
 <div>
-  
+
 </div>
 
      

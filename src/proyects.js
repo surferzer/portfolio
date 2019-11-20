@@ -1,6 +1,7 @@
 import React from 'react';
 import './proyects.css'
 
+
 class Proyects extends React.Component {
     render(){
         return(
@@ -34,6 +35,16 @@ class Proyects extends React.Component {
                <a href="https://surferzer.github.io/GDL003-personal-project/" tittle="competitionSystem">
                <img src="https://i.ibb.co/0XThBbb/competition-Sistem-2.png" width="50%" alt="competitionSystem"/> </a>
            </div>
+           
+
+
+
+
+
+
+
+
+
            
        </div>
        );

@@ -4,7 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
-	background-color: #111;
+
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/475/181/253/jellyfish-underwater-medusa-orange-wallpaper-preview.jpg);
+	background-repeat: no-repeat;
+	background-size:  cover;
 }
 
 .title {
