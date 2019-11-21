@@ -2,20 +2,64 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+.allMe{
+background-color: transparent;
+
+
+}
+
+
+.aboutMeProfile{
+    background-color: rgba(23, 23, 73, 0.5);
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+  
+}
+
+
 .parraf{
     
     color: wheat;
  
-    font-family: fantasy;
+   width: 40%;
     font-size: 300%;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+position: relative;
+left: 10%;
 float: right;
 font-family: 'Montez', cursive;
 }
 
 .myPic{
-    border-radius: 700%;
+    
+    width: 70%;
+    border-radius: 20%;
+    position: relative;
+    left:20%;
+    top: 20%;
+    
+    padding: 5%;
+    
+    
 }
+
+.skills{
+    background-color: rgba(236, 176, 116, 0.5);
+    
+}
+
+.tecnical{
+    display:inline;
+  
+     position: relative;
+     top: 50%;
+     left: 55%;
+     
+ }
+     
+     
+
+
+

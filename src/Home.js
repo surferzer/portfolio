@@ -4,50 +4,46 @@ import './App.css';
 import Proyects from './proyects.js'
 import ButtonBases from './barra.js'
 import './home.css';
-
+import AboutMe from './aboutMe';
 import './App.css';
 
 
+
+
 class Home extends React.Component {
-constructor(props) {
-super(props)
+  constructor(props) {
+    super(props)
 
-this.state = { item: [] }
+    this.state = { item: [] }
 
-}
-
-
-render(){
-  return (
+  }
 
 
+  render() {
+    return (
 
+      <div>
+
+        <div className="title">
+          <h1>Fernanda<br />Zermeño</h1>
+          <h2>Front-end Developer</h2>
+        </div>
+
+        <div>
+          <AboutMe/>
+        <Proyects/>
+       
+          <ButtonBases />
+        </div>
+
+      <div>
     
-    <div>
-
-<div className="title">
- <h1>Fernanda<br/>Zermeño</h1>
- <h2>Front-end Developer</h2>
+      </div>
 
 
-
-
- <ButtonBases/>
- 
- 
-
-</div>
-
-
-
-<div>
-
-</div>
-
-     
-
-
-</div>
-  )}}  
+      </div>
+    )
+  }
+}
 
 export default Home;
