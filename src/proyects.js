@@ -1,11 +1,26 @@
 import React from 'react';
+import { CSSTransitionGroup } from 'react-transition-group';
 import './proyects.css'
 
 
 class Proyects extends React.Component {
     render(){
         return(
+
+
         <div className='vista'>
+
+        <CSSTransitionGroup
+           transitionName="titleProject_animation"
+           transitionAppear={true}
+            transitionAppearTimeout={1000}
+            transitionEnter={false}
+            transitionLeave={false}>
+            <p className="titleProject">
+                Know more about my proyects
+            </p>
+        </CSSTransitionGroup>
+            
             <div className='cypher'>
             <a href="https://surferzer.github.io/GDL003-cipher/src/" title="Cipher">
             <img src= "https://i.ibb.co/qj6dy9W/cipher.png" width="50%" alt="Cipher"/></a>
