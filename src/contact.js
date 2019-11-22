@@ -1,4 +1,5 @@
 import React from "react";
+import './contact.css'
 
  
 
@@ -8,7 +9,7 @@ class Contact extends React.Component {
     return (
 
       
-      <div>
+      <div class="contacting">
         <h2>Contact</h2>
         <div className= 'contacto'>
                <h2>Email: <a href='mafernandazr@gmail.com'>mafernandazr@gmail.com</a></h2>

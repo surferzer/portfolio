@@ -6,6 +6,7 @@ import ButtonBases from './barra.js'
 import './home.css';
 import AboutMe from './aboutMe';
 import './App.css';
+import Contact from './contact';
 
 
 
@@ -32,7 +33,7 @@ class Home extends React.Component {
         <div>
           <AboutMe/>
         <Proyects/>
-       
+       <Contact />
           <ButtonBases />
         </div>
 

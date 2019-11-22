@@ -23,8 +23,9 @@
 }
 
 .vista{
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color:rgba(12, 1, 1, 0.7);
   background-size: 75%;
+  text-align: center;
 }
 
 
@@ -70,7 +71,11 @@
 }
 
 .titleProject{
-    font-size: xx-large;
+  color:wheat;
+text-align: center;
+margin-top: 5%;
+padding-top: 10%;
+    font-size: 500%;
 }
 
 .titleProject_animation-appear {
