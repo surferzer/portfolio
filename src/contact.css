@@ -1,3 +1,29 @@
 .contacting{
     background: rgba(202, 31, 31, 0.8);
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/93/762/482/blue-water-aqua-turquoise-wallpaper-preview.jpg");
+background-repeat: no-repeat;
+background: cover;
+background-blend-mode: multiply;
+background-size: 100%;
+
+
 }
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.titleContact{
+   padding-top: 5%;
+    position: relative;
+    top:50%;
+    color:wheat;
+    
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+
+}
+
