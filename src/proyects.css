@@ -1,26 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Flamenco|Lilita+One|Raleway+Dots|Rancho&display=swap');
 
-.cypher{
-   
-    font-size: 300%;
-    color:wheat;
-    text-align: center;
-    position: relative;
-    margin-top: 10%;
-  
-    background-image: url("https://ibb.co/DtRj7Zt");
-    background: cover;
 
-}
 
 .img src{
     width: 100%;
     size: 200%;
 }
 
-.CardTitle{
-    color: cornsilk;
-    
-}
+
 
 .vista{
   background-color:rgba(12, 1, 1, 0.7);
@@ -76,6 +63,7 @@ text-align: center;
 margin-top: 5%;
 padding-top: 10%;
     font-size: 500%;
+    font-family: 'Raleway Dots', cursive;
 }
 
 .titleProject_animation-appear {
@@ -132,6 +120,7 @@ padding-top: 10%;
 
  .card-title{
    color:wheat;
+   font-family:  'Charmonman', cursive;
  }
 
  .cardStyle{

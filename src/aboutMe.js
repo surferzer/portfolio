@@ -17,6 +17,7 @@ class AboutMe extends React.Component {
                 <div class="parraf">
 
                     <p> I'm a Front end developer with experience in Tourism as my first carrer and passionate for sports.
+                        <br></br>
                         When i discovered the code world i found it a place for me
                         because i love to face new challenges everyday, like i do as atlethe and in my life! </p>
                 </div>
