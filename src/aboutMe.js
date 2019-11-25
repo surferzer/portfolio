@@ -17,15 +17,24 @@ class AboutMe extends React.Component {
                 <div class="parraf">
 
                     <p> I'm a Front end developer with experience in Tourism as my first carrer and passionate for sports.
-                        <br></br>
+                        
                         When i discovered the code world i found it a place for me
                         because i love to face new challenges everyday, like i do as atlethe and in my life! </p>
+
+
+
+
+
+                        
                 </div>
             </div>
            
 
 <div class="skills">
 <div class="tecnical">
+
+  Tecnical skills
+  <br></br>
    
 <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-512.png" width="3%"/>
 <img src="https://icon-library.net/images/react-icon/react-icon-15.jpg"width="3%"/>

@@ -16,6 +16,7 @@ class Contact extends React.Component {
                <h2> <a href='mafernandazr@gmail.com'><img src="https://images.vexels.com/media/users/3/157444/isolated/preview/cac65f0418e3896e226f803751364216-icono-de-sobre-de-marketing-by-vexels.png" width="20%" hover="mafernandazr@gmail.com"/><br></br>
                mafernandazr@gmail.com</a></h2>
                </div>
+               <br></br>
 
                <div className="gitHub">
                <h2>Github: <a href='https://github.com/surferzer'><img src="https://www.iconsdb.com/icons/preview/orange/github-6-xxl.png" width="20%" /></a></h2>

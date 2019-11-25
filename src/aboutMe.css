@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Codystar|Dawning+of+a+New+Day|Montez|Raleway+Dots|Sacramento|Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre|B612+Mono|Bad+Script|Boogaloo|Bubblegum+Sans|Charmonman|Codystar|Cutive+Mono|Delius|Flamenco|Lilita+One|Marck+Script|Overlock+SC|Oxygen+Mono|Poiret+One|Raleway+Dots|Rancho|VT323&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .allMe{
@@ -24,13 +24,16 @@ background-color: transparent;
     color: wheat;
  
    width: 40%;
-    font-size: 300%;
+    font-size: 200%;
     text-align: center;
 position: relative;
 left: 10%;
 float: right;
-font-family: 'Montez', cursive;
+font-family:'Raleway Dots', cursive;
+animation: glow 1s ease-in-out infinite alternate;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(6, 35, 116, 0.521), 0 0 40px rgba(6, 35, 116, 0.521), 0 0 50px rgba(6, 35, 116, 0.521), 0 0 60px rgba(6, 35, 116, 0.521), 0 0 70px rgba(6, 35, 116, 0.521);
 }
+
 
 .myPic{
     
@@ -55,11 +58,11 @@ font-family: 'Montez', cursive;
   
      position: relative;
      top: 50%;
-     left: 54%;
+     left: 60%;
      
  }
      
-     
+
 
 
 

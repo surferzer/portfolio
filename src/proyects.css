@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Charmonman|Flamenco|Lilita+One|Raleway+Dots|Rancho&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre|B612+Mono|Bad+Script|Boogaloo|Bubblegum+Sans|Charmonman|Codystar|Cutive+Mono|Delius|Flamenco|Lilita+One|Marck+Script|Overlock+SC|Oxygen+Mono|Poiret+One|Raleway+Dots|Rancho|VT323&display=swap');
 
 
 .img src{
@@ -64,7 +64,10 @@ margin-top: 5%;
 padding-top: 10%;
     font-size: 500%;
     font-family: 'Raleway Dots', cursive;
-}
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px wheat, 0 0 40px wheat, 0 0 50px wheat, 0 0 60px rgba(6, 35, 116, 0.521), 0 0 70px wheat;
+  }
+
 
 .titleProject_animation-appear {
     font-size: small
@@ -98,6 +101,10 @@ padding-top: 10%;
     font-size: 150%;
     padding: 0.4rem 1.9rem;
     color:white;
+    font-family: 'Raleway Dots', cursive;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(6, 35, 116, 0.521), 0 0 40px rgba(6, 35, 116, 0.521), 0 0 50px rgba(6, 35, 116, 0.521), 0 0 60px rgba(6, 35, 116, 0.521), 0 0 70px rgba(6, 35, 116, 0.521);
+
   }
    
   .container-fluid .row {
