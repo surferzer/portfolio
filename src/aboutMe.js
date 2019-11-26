@@ -20,7 +20,7 @@ class AboutMe extends React.Component {
                     <p> I'm a Front end developer with experience in Tourism as my first carrer and passionate about sports.</p>
 
                         
-                     <p>When i discovered the code world i knew i have found it a loving place, it's so exciting for me to face challenges 
+                     <p>When i discovered the code world i knew i have been found it a loving place; it's so exciting for me to face challenges 
 
                       everyday and improve my habilities! </p>
 

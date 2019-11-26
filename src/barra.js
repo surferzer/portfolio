@@ -19,20 +19,20 @@ import {Link} from 'react-router-dom';
     const images = [
   {
     
-    title:<Link to="/aboutMe" class="MuiTypography-subtitle1 MuiTypography-colorInherit">...</Link>,
+    title:<Link to="/aboutMe" class="MuiTypography-subtitle1 MuiTypography-colorInherit">About me</Link>,
     width: '10%', 
   
    
   },
   {
     
-    title: <Link to="/proyects" class="MuiTypography-subtitle1 MuiTypography-colorInherit">..</Link>,
+    title: <Link to="/proyects" class="MuiTypography-subtitle1 MuiTypography-colorInherit">Projects</Link>,
     width: '10%',
    
   },
   {
    
-    title:<Link to="/contact" class="MuiTypography-subtitle1 MuiTypography-colorInherit">.</Link>,
+    title:<Link to="/contact" class="MuiTypography-subtitle1 MuiTypography-colorInherit">Contact</Link>,
     width: '10%',
    
   },
