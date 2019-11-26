@@ -2,10 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
-import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
-import Icon from '@material-ui/core/Icon';
-import IconButton from '@material-ui/core/IconButton';
-import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
 import {Redirect} from "react-router-dom";
 import {Link} from 'react-router-dom';
 
@@ -19,20 +15,20 @@ import {Link} from 'react-router-dom';
     const images = [
   {
     
-    title:<Link to="/aboutMe" class="MuiTypography-subtitle1 MuiTypography-colorInherit">About me</Link>,
+    title:<Link to="/aboutMe" className="MuiTypography-subtitle1 MuiTypography-colorInherit">About me</Link>,
     width: '10%', 
   
    
   },
   {
     
-    title: <Link to="/proyects" class="MuiTypography-subtitle1 MuiTypography-colorInherit">Projects</Link>,
+    title: <Link to="/proyects" className="MuiTypography-subtitle1 MuiTypography-colorInherit">Projects</Link>,
     width: '10%',
    
   },
   {
    
-    title:<Link to="/contact" class="MuiTypography-subtitle1 MuiTypography-colorInherit">Contact</Link>,
+    title:<Link to="/contact" className="MuiTypography-subtitle1 MuiTypography-colorInherit">Contact</Link>,
     width: '10%',
    
   },
