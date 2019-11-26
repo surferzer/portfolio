@@ -19,7 +19,7 @@ class Proyects extends React.Component {
             transitionEnter={false}
             transitionLeave={false}>
             <p className="titleProject">
-                 Web Developer Proyects 
+                 Web Developer Projects 
             </p>
         </CSSTransitionGroup>
             
@@ -36,9 +36,9 @@ class Proyects extends React.Component {
       <div className='card-body text-dark'>
         <h4 className='card-title'>DataLovers</h4>
         <p className='card-text text-secondary'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          distinctio maxime, sapiente temporibus cum quisquam totam voluptatum
-          asperiores. Necessitatibus, repellendus!
+         Data Lovers is a project that let you know more about "Rick and Morty" series and it's possible to filter the characters by categories.
+         JAVASCRIPT/HTML5/CCS.
+ 
         </p>
         <a href="https://surferzer.github.io/GDL003-data-lovers/src/" className='btn btn-outline-success'>
           Go inside
@@ -54,9 +54,9 @@ class Proyects extends React.Component {
       <div className='card-body text-dark'>
         <h4 className='card-title'>Lab Notes</h4>
         <p className='card-text text-secondary'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          distinctio maxime, sapiente temporibus cum quisquam totam voluptatum
-          asperiores. Necessitatibus, repellendus!
+         Lab Notes is an aplication to write notes about your daily workout at the gym.
+         It's possible to login by facebook, google and e-mail.
+         JAVASCRIPT/FIREBASE/HTML5/CSS3.
         </p>
         <a href="https://surferzer.github.io/GDL003-lab-notes/" className='btn btn-outline-success'>
           Go inside
@@ -76,9 +76,8 @@ class Proyects extends React.Component {
       <div className='card-body text-dark'>
         <h4 className='card-title'>Ciboulette</h4>
         <p className='card-text text-secondary'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          distinctio maxime, sapiente temporibus cum quisquam totam voluptatum
-          asperiores. Necessitatibus, repellendus!
+        Ciboulette is an aplication to create commands for a french restaurant.
+        It's a full stuck project, but my participation was as front-end, using REACT/CSS3
         </p>
         <a href="https://lauramayar.github.io/GDL003-Burger-Queen-Front-End/" className='btn btn-outline-success'>
           Go inside
@@ -99,9 +98,8 @@ class Proyects extends React.Component {
       <div className='card-body text-dark'>
         <h4 className='card-title'>Competition System GYM58</h4>
         <p className='card-text text-secondary'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          distinctio maxime, sapiente temporibus cum quisquam totam voluptatum
-          asperiores. Necessitatibus, repellendus!
+         Competition System GYM58 was made to create an event aplication with random brackets and competitors information in sport events.
+         ANGULAR/CSS3 
         </p>
         <a href="https://surferzer.github.io/GDL003-personal-project/" className='btn btn-outline-success'>
           Go inside

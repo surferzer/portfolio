@@ -13,7 +13,7 @@ class Contact extends React.Component {
         <p className="titleContact">Contact me!</p>
         <div className= 'contacto'>
           <div className="email">
-               <h2> <a href='mafernandazr@gmail.com'><img src="https://images.vexels.com/media/users/3/157444/isolated/preview/cac65f0418e3896e226f803751364216-icono-de-sobre-de-marketing-by-vexels.png" width="20%" hover="mafernandazr@gmail.com"/><br></br>
+               <h2> <a href="mailto:mafernandazr@gmail.com"><img src="https://images.vexels.com/media/users/3/157444/isolated/preview/cac65f0418e3896e226f803751364216-icono-de-sobre-de-marketing-by-vexels.png" width="20%" hover="mafernandazr@gmail.com"/><br></br>
                mafernandazr@gmail.com</a></h2>
                </div>
                <br></br>
@@ -23,7 +23,7 @@ class Contact extends React.Component {
                </div>
 
                <div className="linkedIn">
-               <h2>Linked In: <a href='https://linkedin.com/fernandazermeno'><img src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/linkedin-2-icon-11-256.png" width="20%" /></a></h2>
+               <h2>Linked In: <a href='https://mx.linkedin.com/in/fernandazerme%C3%B1o?trk=people-guest_profile-result-card_result-card_full-click'><img src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/linkedin-2-icon-11-256.png" width="20%" /></a></h2>
                </div>
 
                <div className="cv">

@@ -16,10 +16,16 @@ class AboutMe extends React.Component {
 
                 <div class="parraf">
 
-                    <p> I'm a Front end developer with experience in Tourism as my first carrer and passionate for sports.
+                  
+                    <p> I'm a Front end developer with experience in Tourism as my first carrer and passionate about sports.</p>
+
                         
-                        When i discovered the code world i found it a place for me
-                        because i love to face new challenges everyday, like i do as atlethe and in my life! </p>
+                     <p>When i discovered the code world i knew i have found it a loving place, it's so exciting for me to face challenges 
+
+                      everyday and improve my habilities! </p>
+
+
+                      
 
 
 
@@ -33,7 +39,8 @@ class AboutMe extends React.Component {
 <div class="skills">
 <div class="tecnical">
 
-  Tecnical skills
+  
+technical skills
   <br></br>
    
 <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-512.png" width="3%"/>
