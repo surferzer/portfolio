@@ -36,8 +36,8 @@ class AboutMe extends React.Component {
             </div>
            
 
-<div class="skills">
-<div class="tecnical">
+<div className="skills">
+<div className="tecnical">
 
   
 technical skills

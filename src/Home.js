@@ -23,14 +23,14 @@ class Home extends React.Component {
   render() {
     return (
 
-      <div>
+      <div className="generalOrder">
 
         <div className="title">
           <h1>Fernanda<br />Zermeño</h1>
           <h2>Front-end Developer</h2>
         </div>
 
-        <div>
+        <div className="allBody">
           <AboutMe/>
         <Proyects/>
        <Contact />
