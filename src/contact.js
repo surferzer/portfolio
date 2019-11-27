@@ -23,11 +23,11 @@ class Contact extends React.Component {
                </div>
 
                <div className="linkedIn">
-               <h2>Linked In: <a href='https://mx.linkedin.com/in/fernandazerme%C3%B1o?trk=people-guest_profile-result-card_result-card_full-click'><img src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/linkedin-2-icon-11-256.png" width="20%" /></a></h2>
+               <h2>Linked In: <a href='https://www.linkedin.com/in/fernandazerme%C3%B1o'><img src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/linkedin-2-icon-11-256.png" width="20%" /></a></h2>
                </div>
 
                <div className="cv">
-               <h2>Cv: <a href=''><img src="https://www.u.com.my/sites/all/themes/zurb-foundation/images/umobile/selfcare_login_pic.png" width="30%" /></a></h2>
+               <h2>Cv: <a href='https://resume.io/r/0fYBdcW3i'><img src="https://www.u.com.my/sites/all/themes/zurb-foundation/images/umobile/selfcare_login_pic.png" width="30%" /></a></h2>
                </div>
 
            </div>
