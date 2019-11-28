@@ -62,7 +62,7 @@
 text-align: center;
 margin-top: 5%;
 padding-top: 10%;
-    font-size: 500%;
+    font-size: 400%;
     font-family: 'Raleway Dots', cursive;
     animation: glow 1s ease-in-out infinite alternate;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px wheat, 0 0 40px wheat, 0 0 50px wheat, 0 0 60px rgba(6, 35, 116, 0.521), 0 0 70px wheat;
@@ -98,7 +98,7 @@ padding-top: 10%;
   }
    
   .card-text {
-    font-size: 150%;
+    font-size: 120%;
     padding: 0.4rem 1.9rem;
     color:white;
     font-family: 'Raleway Dots';
@@ -128,6 +128,7 @@ padding-top: 10%;
  .card-title{
    color:wheat;
    font-family:  'Charmonman', cursive;
+   font-size: 130%;
  }
 
  .cardStyle{

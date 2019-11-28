@@ -21,14 +21,17 @@ background-size: 100%;
     top:50%;
     color:wheat;
     font-family:  'Raleway Dots', cursive;
-    font-size: 300%;
+    font-size: 220%;
     display: flex;
     justify-content: center;
     animation: glow 1s ease-in-out infinite alternate;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(6, 35, 116, 0.521), 0 0 40px rgba(6, 35, 116, 0.521), 0 0 50px rgba(6, 35, 116, 0.521), 0 0 60px rgba(6, 35, 116, 0.521), 0 0 70px rgba(6, 35, 116, 0.521);
 }
 
- 
+.email{
+    position: relative;
+    left:10%;
+} 
 
 
 

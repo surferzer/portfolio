@@ -23,12 +23,13 @@ background-color: transparent;
     
     color: wheat;
  
-   width: 40%;
-    font-size: 230%;
+   width: 50%;
+    font-size: 160%;
     text-align: center;
 position: relative;
-left: 10%;
-float: right;
+left:-10%;
+
+
 font-family:'Raleway Dots';
 animation: glow 1s ease-in-out infinite alternate;
 text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(6, 35, 116, 0.521), 0 0 40px rgba(6, 35, 116, 0.521), 0 0 50px rgba(6, 35, 116, 0.521), 0 0 60px rgba(6, 35, 116, 0.521), 0 0 70px rgba(6, 35, 116, 0.521);
@@ -37,10 +38,10 @@ text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(6, 35, 116, 0.521), 0 0
 
 .myPic{
     
-    width: 70%;
+    width: 50%;
     border-radius: 20%;
     position: relative;
-    left:20%;
+    left:15%;
     top: 20%;
     
     padding: 5%;

@@ -49,7 +49,7 @@ class Proyects extends React.Component {
 
       <div className='card text-center shadow'>
       <div className='overflow'>
-     <a href="https://surferzer.github.io/GDL003-lab-notes/"><img src="https://i.ibb.co/Jj1K1JX/labnotes-2.png" width="60%" alt='DataLovers' className='card-img-top'/></a>
+     <a href="https://surferzer.github.io/GDL003-lab-notes/"><img src="https://i.ibb.co/Jj1K1JX/labnotes-2.png" width="44%" className='card-img-top'/></a>
       </div>
       <div className='card-body text-dark'>
         <h4 className='card-title'>Lab Notes</h4>
