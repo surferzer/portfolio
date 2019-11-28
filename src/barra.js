@@ -15,7 +15,7 @@ import {Link} from 'react-router-dom';
     const images = [
   {
     
-    title:<Link to="/aboutMe" className="MuiTypography-subtitle1 MuiTypography-colorInherit">About me</Link>,
+    title:<Link to="/aboutMe" className="MuiTypography-subtitle1 MuiTypography-colorInherit">Me</Link>,
     width: '10%', 
   
    
